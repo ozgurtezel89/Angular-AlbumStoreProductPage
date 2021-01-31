@@ -1,5 +1,5 @@
 <ul>
   <li *ngFor="let product of products">
-    <p>{{product.albumName}}</p>
+    <p><a routerLink="/product/{{product.id}}">{{product.albumName}}</a></p>
   </li>
 </ul>
